@@ -10,16 +10,7 @@ header_pages:
   - documente.md
   - contact.md
 
-social_links:
-  - title: "ShiTeiDoko at facebook"
-    icon: facebook
-    url: "https://www.facebook.com/shiteidoko"
-  - title: "ShiTeiDoko at X"
-    icon: x-twitter
-    url: "https://x.com/jekyllrb"
-  - title: "ShiTeiDoko instagram"
-    icon: instagram
-    url: "https://x.com/jekyllrb"
-  - title: "ShiTeiDoko youtube"
-    icon: youtube
-    url: "https://x.com/jekyllrb"
+facebook_username: shiteidoko
+twitter_username: shiteidoko
+instagram_username: shiteidoko
+youtube_username: shiteidoko
