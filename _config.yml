@@ -11,15 +11,7 @@ header_pages:
   - contact.md
 
 social_links:
-  - title: "ShiTeiDoko at facebook"
-    icon: facebook
-    url: "https://www.facebook.com/shiteidoko"
-  - title: "ShiTeiDoko at X"
-    icon: twitter
-    url: "https://x.com/jekyllrb"
-  - title: "ShiTeiDoko instagram"
-    icon: instagram
-    url: "https://x.com/jekyllrb"
-  - title: "ShiTeiDoko youtube"
-    icon: youtube
-    url: "https://x.com/jekyllrb"
+  facebook: shiteidoko
+  twitter: shiteidoko       # Minima 3 maps twitter to the X logo SVG
+  instagram: shiteidoko     # Replace with your actual Instagram username
+  youtube: shiteidoko       # Replace with your actual YouTube username/channel
