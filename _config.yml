@@ -1,8 +1,9 @@
-theme: jekyll-theme-hacker jekyll-theme-minima
+theme: minima
 description: Clubul Sportiv ShiTeiDoko
 title: ShiTeiDoko
 
 minima:
+  skin: dark
   nav_pages:
     - Despre noi.md
     - Video.md
@@ -11,9 +12,9 @@ minima:
     - Documente.md
     - Contact.md
   social_links:
-    - title: Jekyll repository at GitHub
-      icon: github
-      url: "https://github.com/jekyll/jekyll"
+    - title: Clubul Sportiv ShiTeiDoko facebook
+      icon: facebook
+      url: "https://www.facebook.com//shiteidoko"
     - title: Jekyll at X (formerly Twitter)
       icon: x-twitter
       url: "https://x.com/jekyllrb"
