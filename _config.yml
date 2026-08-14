@@ -1,21 +1,19 @@
 theme: minima
 description: Clubul Sportiv ShiTeiDoko
 title: ShiTeiDoko
-
-minima:
-  skin: dark
-  header_pages:
-    - despre.md
-    - video.md
-    - foto.md
-    - program.md
-    - documente.md
-    - contact.md
-  social_links:
-    - title: Clubul Sportiv ShiTeiDoko facebook
-      icon: facebook
-      url: "https://www.facebook.com//shiteidoko"
-    - title: Jekyll at X (formerly Twitter)
-      icon: x-twitter
-      url: "https://x.com/jekyllrb"
+skin: dark
+header_pages:
+  - despre.md
+  - video.md
+  - foto.md
+  - program.md
+  - documente.md
+  - contact.md
+social_links:
+  - title: Clubul Sportiv ShiTeiDoko facebook
+    icon: facebook
+    url: "https://www.facebook.com//shiteidoko"
+  - title: Jekyll at X (formerly Twitter)
+    icon: x-twitter
+    url: "https://x.com/jekyllrb"
 
