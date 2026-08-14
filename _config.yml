@@ -4,7 +4,7 @@ title: ShiTeiDoko
 
 minima:
   skin: dark
-  nav_pages:
+  header_pages:
     - Despre noi.md
     - Video.md
     - Foto.md
