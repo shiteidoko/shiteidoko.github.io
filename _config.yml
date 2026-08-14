@@ -1,0 +1,11 @@
+theme: jekyll-theme-hacker jekyll-theme-minima
+description: Clubul Sportiv ShiTeiDoko
+title: ShiTeiDoko
+
+header_pages:
+  - Despre noi.md
+  - Video.md
+  - Foto.md
+  - Program.md
+  - Documente.md
+  - Contact.md
