@@ -11,9 +11,15 @@ header_pages:
   - contact.md
 
 social_links:
-  - title: "Clubul Sportiv ShiTeiDoko facebook"
+  - title: "ShiTeiDoko at facebook"
     icon: facebook
     url: "https://www.facebook.com/shiteidoko"
-  - title: "Jekyll at X (formerly Twitter)"
-    icon: x-twitter
+  - title: "ShiTeiDoko at X"
+    icon: twitter
+    url: "https://x.com/jekyllrb"
+  - title: "ShiTeiDoko instagram"
+    icon: instagram
+    url: "https://x.com/jekyllrb"
+  - title: "ShiTeiDoko youtube"
+    icon: youtube
     url: "https://x.com/jekyllrb"
