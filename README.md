@@ -1,0 +1,2 @@
+# shiteidoko.github.io
+shiteidoko
