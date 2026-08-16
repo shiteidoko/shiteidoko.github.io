@@ -4,9 +4,10 @@ title: Foto
 permalink: /photos/
 ---
 
-<!-- Tobii Lightbox CSS & JS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tobii/2.5.0/tobii.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tobii/2.5.0/tobii.min.js"></script>
+
+<!-- GLightbox CSS & JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 
 <style>
   /* Photo Grid Layout */
@@ -63,6 +64,28 @@ permalink: /photos/
     text-overflow: ellipsis;
     text-transform: capitalize;
   }
+
+  /* Robust GLightbox Controls Reset for Minima v2 */
+  .glightbox-container .gbtn {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 50% !important;
+    width: 46px !important;
+    height: 46px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .glightbox-container .gbtn svg {
+    width: 22px !important;
+    height: 22px !important;
+    display: block !important;
+  }
+
+  .glightbox-container .gbtn svg path {
+    fill: #ffffff !important;
+  }
 </style>
 
 {% assign all_photos = site.static_files | where_exp: "item", "item.path contains '/assets/photos/'" %}
@@ -92,9 +115,9 @@ permalink: /photos/
           {% assign caption = filename | replace: "-", " " | replace: "_", " " %}
           
           <a href="{{ file.path | relative_url }}" 
-             class="photo-card lightbox" 
-             data-group="gallery-{{ year }}"
-             data-caption="{{ caption }}">
+             class="photo-card glightbox" 
+             data-gallery="gallery-{{ year }}"
+             data-title="{{ caption }}">
             
             <img src="{{ file.path | relative_url }}" alt="{{ caption }}" loading="lazy">
             <div class="photo-caption">{{ caption }}</div>
@@ -107,10 +130,9 @@ permalink: /photos/
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const tobii = new Tobii({
-      selector: '.lightbox',
-      captions: true,
-      zoom: false
+    GLightbox({
+      selector: '.glightbox',
+      loop: true
     });
   });
 </script>
