@@ -93,7 +93,7 @@
           {% assign filename = file.name | split: "." | first %}
           {% assign caption = filename | replace: "-", " " | replace: "_", " " %}
           
-          <a data-fslightbox="gallery-{{ year }}" 
+          <a data-fslightbox="gallery" 
              data-caption="{{ caption }}" 
              href="{{ file.path | relative_url }}" 
              class="photo-card">
