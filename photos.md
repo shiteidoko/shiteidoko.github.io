@@ -4,10 +4,9 @@ title: Foto
 permalink: /photos/
 ---
 
-<!-- Font Awesome SVG Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<!-- FsLightbox Library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.4.1/index.js"></script>
+<!-- Tobii Lightbox CSS & JS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tobii/2.5.0/tobii.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tobii/2.5.0/tobii.min.js"></script>
 
 <style>
   /* Photo Grid Layout */
@@ -64,74 +63,6 @@ permalink: /photos/
     text-overflow: ellipsis;
     text-transform: capitalize;
   }
-
-  /* Force Lightbox Navigation Buttons & Container Visibility */
-  .fslightbox-container {
-    background: rgba(0, 0, 0, 0.9) !important;
-  }
-
-  .fslightbox-slide-btn-container {
-    width: 60px !important;
-    height: 60px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  .fslightbox-slide-btn {
-    background: rgba(255, 255, 255, 0.2) !important;
-    border-radius: 50% !important;
-    width: 44px !important;
-    height: 44px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    transition: background 0.2s ease !important;
-  }
-
-  .fslightbox-slide-btn:hover {
-    background: rgba(255, 255, 255, 0.4) !important;
-  }
-
-  /* Hide default broken SVG paths if any exist */
-  .fslightbox-slide-btn svg,
-  .fslightbox-toolbar-button svg {
-    display: none !important;
-  }
-
-  /* Custom Left Arrow Icon */
-  .fslightbox-slide-btn-container:first-of-type .fslightbox-slide-btn::before {
-    content: "\f053";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    color: #ffffff;
-    font-size: 18px;
-  }
-
-  /* Custom Right Arrow Icon */
-  .fslightbox-slide-btn-container:last-of-type .fslightbox-slide-btn::before {
-    content: "\f054";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    color: #ffffff;
-    font-size: 18px;
-  }
-
-  /* Custom Close Icon in Top Toolbar */
-  .fslightbox-toolbar-button:last-child {
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  .fslightbox-toolbar-button:last-child::before {
-    content: "\f00d";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    color: #ffffff;
-    font-size: 22px;
-  }
 </style>
 
 {% assign all_photos = site.static_files | where_exp: "item", "item.path contains '/assets/photos/'" %}
@@ -160,10 +91,10 @@ permalink: /photos/
           {% assign filename = file.name | split: "." | first %}
           {% assign caption = filename | replace: "-", " " | replace: "_", " " %}
           
-          <a data-fslightbox="gallery-{{ year }}" 
-             data-caption="{{ caption }}" 
-             href="{{ file.path | relative_url }}" 
-             class="photo-card">
+          <a href="{{ file.path | relative_url }}" 
+             class="photo-card lightbox" 
+             data-group="gallery-{{ year }}"
+             data-caption="{{ caption }}">
             
             <img src="{{ file.path | relative_url }}" alt="{{ caption }}" loading="lazy">
             <div class="photo-caption">{{ caption }}</div>
@@ -173,3 +104,13 @@ permalink: /photos/
     </div>
   </section>
 {% endfor %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const tobii = new Tobii({
+      selector: '.lightbox',
+      captions: true,
+      zoom: false
+    });
+  });
+</script>
