@@ -1,28 +1,158 @@
+<style>
+  .year-heading {
+    margin-top: 2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.3rem;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .photo-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .photo-card img:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+  }
+
+  /* Lightbox Modal - Hidden by default */
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lightbox:target {
+    display: flex !important;
+  }
+
+  .lightbox-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 85vh;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lightbox-content img {
+    max-width: 100%;
+    max-height: 75vh;
+    border-radius: 4px;
+    height: auto;
+  }
+
+  .lightbox-caption {
+    margin-top: 10px;
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 2.5rem;
+    text-decoration: none;
+    line-height: 1;
+    z-index: 10001;
+  }
+
+  /* Navigation Arrows */
+  .lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    user-select: none;
+    transition: background 0.2s ease;
+    z-index: 10000;
+  }
+
+  .lightbox-nav:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+
+  .lightbox-prev {
+    left: 20px;
+  }
+
+  .lightbox-next {
+    right: 20px;
+  }
+</style>
+
 {% assign grouped_photos = site.data.photos | group_by: "year" | sort: "name" | reverse %}
 
+<!-- 1. Grid Thumbnails Loop -->
 {% for group in grouped_photos %}
   <h2 class="year-heading">{{ group.name }}</h2>
   <div class="photo-grid">
     {% for item in group.items %}
       <div class="photo-card">
-        <a href="#img-{{ forloop.parentloop.index }}-{{ forloop.index }}">
-          <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy" />
+        <a href="#img-{{ group.name }}-{{ forloop.index }}">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.title | default: 'Photo' }}" loading="lazy" />
         </a>
-        
-        <!-- Lightbox Modal -->
-        <div id="img-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="lightbox">
-          <a href="#_" class="lightbox-close">&times;</a>
-          <div class="lightbox-content">
-            <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" />
-            {% if item.title or item.caption %}
-              <div class="lightbox-caption">
-                <strong>{{ item.title }}</strong>
-                {% if item.caption %}<p>{{ item.caption }}</p>{% endif %}
-              </div>
-            {% endif %}
-          </div>
-        </div>
       </div>
     {% endfor %}
   </div>
+{% endfor %}
+
+<!-- 2. Lightbox Modals Loop with Prev/Next Navigation -->
+{% for group in grouped_photos %}
+  {% assign total_items = group.items | size %}
+  {% for item in group.items %}
+    {% assign prev_idx = forloop.index | minus: 1 %}
+    {% assign next_idx = forloop.index | plus: 1 %}
+
+    <div id="img-{{ group.name }}-{{ forloop.index }}" class="lightbox">
+      <!-- Close Button -->
+      <a href="#_" class="lightbox-close">&times;</a>
+
+      <!-- Previous Arrow (wraps to last photo if on first) -->
+      {% if prev_idx < 1 %}
+        {% assign prev_idx = total_items %}
+      {% endif %}
+      <a href="#img-{{ group.name }}-{{ prev_idx }}" class="lightbox-nav lightbox-prev">&#10094;</a>
+
+      <!-- Modal Content -->
+      <div class="lightbox-content">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.title | default: 'Photo' }}" />
+        {% if item.title or item.caption %}
+          <div class="lightbox-caption">
+            {% if item.title %}<strong>{{ item.title }}</strong>{% endif %}
+            {% if item.caption %}<p>{{ item.caption }}</p>{% endif %}
+          </div>
+        {% endif %}
+      </div>
+
+      <!-- Next Arrow (wraps to first photo if on last) -->
+      {% if next_idx > total_items %}
+        {% assign next_idx = 1 %}
+      {% endif %}
+      <a href="#img-{{ group.name }}-{{ next_idx }}" class="lightbox-nav lightbox-next">&#10095;</a>
+    </div>
+  {% endfor %}
 {% endfor %}
