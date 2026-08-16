@@ -3,11 +3,11 @@ title: ShiTeiDoko
 description: Clubul Sportiv ShiTeiDoko
 
 header_pages:
-  - despre.md
-  - video.md
-  - foto.md
+  - about.md
+  - videos.md
+  - photos.md
   - program.md
-  - documente.md
+  - documents.md
   - contact.md
 
 facebook_username: shiteidoko
