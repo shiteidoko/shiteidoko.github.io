@@ -56,31 +56,28 @@
     text-transform: capitalize;
   }
 
-  /* Neutralize Minima theme resets for FsLightbox Icons */
+  /* Fix FsLightbox SVG Icon Rendering */
   .fslightbox-container svg {
     max-width: none !important;
-    height: auto !important;
-    display: inline-block !important;
+    max-height: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .fslightbox-container svg path {
     fill: #ffffff !important;
   }
 
-  .fslightbox-slide-btn-container {
+  .fslightbox-slide-btn-container,
+  .fslightbox-toolbar-button {
     display: flex !important;
-  }
-
-  .fslightbox-slide-btn {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.2s ease;
-  }
-
-  .fslightbox-slide-btn:hover {
-    background: rgba(0, 0, 0, 0.6);
+    align-items: center !important;
+    justify-content: center !important;
+    opacity: 1 !important;
+    visibility: visible !important;
   }
 </style>
 
