@@ -1,10 +1,8 @@
 ---
 layout: home
-title: Acasa
+title: Clubul Sportiv ShiTeiDoko
 permalink: /
 ---
-
-Clubul Sportiv ShiTeiDoko
 
 ![Logo](/assets/logos/logo.png)
 
