@@ -12,16 +12,24 @@
     margin-bottom: 2rem;
   }
 
+  /* Thumbnail container and styling */
+  .photo-card a {
+    display: block;
+    overflow: hidden;
+    border-radius: 6px;
+  }
+
   .photo-card img {
     width: 100%;
     height: 140px;
     object-fit: cover;
     border-radius: 6px;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    display: block;
   }
 
   .photo-card img:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
     opacity: 0.9;
   }
 
@@ -32,7 +40,7 @@
     z-index: 9999;
     top: 0; left: 0;
     width: 100vw; height: 100vh;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.88);
     justify-content: center;
     align-items: center;
   }
@@ -57,10 +65,18 @@
     max-height: 75vh;
     border-radius: 4px;
     height: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   }
 
   .lightbox-caption {
-    margin-top: 10px;
+    margin-top: 12px;
+    max-width: 800px;
+  }
+
+  .lightbox-caption p {
+    margin: 4px 0 0 0;
+    font-size: 0.95rem;
+    color: #ccc;
   }
 
   .lightbox-close {
@@ -80,18 +96,18 @@
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.8rem;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 12px 18px;
     background: rgba(0, 0, 0, 0.4);
     border-radius: 4px;
     user-select: none;
-    transition: background 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease;
     z-index: 10000;
   }
 
   .lightbox-nav:hover {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
     color: #fff;
   }
 
@@ -111,16 +127,17 @@
   <h2 class="year-heading">{{ group.name }}</h2>
   <div class="photo-grid">
     {% for item in group.items %}
+      {% assign thumb_src = item.thumb | default: item.image %}
       <div class="photo-card">
-        <a href="#img-{{ group.name }}-{{ forloop.index }}">
-          <img src="{{ item.image | relative_url }}" alt="{{ item.title | default: 'Photo' }}" loading="lazy" />
+        <a href="#img-{{ group.name }}-{{ forloop.index }}" title="Click to view full image">
+          <img src="{{ thumb_src | relative_url }}" alt="{{ item.title | default: 'Photo' }}" loading="lazy" />
         </a>
       </div>
     {% endfor %}
   </div>
 {% endfor %}
 
-<!-- 2. Lightbox Modals Loop with Prev/Next Navigation -->
+<!-- 2. Full-Size Image Lightbox Modals Loop -->
 {% for group in grouped_photos %}
   {% assign total_items = group.items | size %}
   {% for item in group.items %}
@@ -129,15 +146,15 @@
 
     <div id="img-{{ group.name }}-{{ forloop.index }}" class="lightbox">
       <!-- Close Button -->
-      <a href="#_" class="lightbox-close">&times;</a>
+      <a href="#_" class="lightbox-close" title="Close (Esc)">&times;</a>
 
-      <!-- Previous Arrow (wraps to last photo if on first) -->
+      <!-- Previous Arrow (wraps around) -->
       {% if prev_idx < 1 %}
         {% assign prev_idx = total_items %}
       {% endif %}
-      <a href="#img-{{ group.name }}-{{ prev_idx }}" class="lightbox-nav lightbox-prev">&#10094;</a>
+      <a href="#img-{{ group.name }}-{{ prev_idx }}" class="lightbox-nav lightbox-prev" title="Previous photo (Left Arrow)">&#10094;</a>
 
-      <!-- Modal Content -->
+      <!-- Full-Resolution Image Content -->
       <div class="lightbox-content">
         <img src="{{ item.image | relative_url }}" alt="{{ item.title | default: 'Photo' }}" />
         {% if item.title or item.caption %}
@@ -148,11 +165,31 @@
         {% endif %}
       </div>
 
-      <!-- Next Arrow (wraps to first photo if on last) -->
+      <!-- Next Arrow (wraps around) -->
       {% if next_idx > total_items %}
         {% assign next_idx = 1 %}
       {% endif %}
-      <a href="#img-{{ group.name }}-{{ next_idx }}" class="lightbox-nav lightbox-next">&#10095;</a>
+      <a href="#img-{{ group.name }}-{{ next_idx }}" class="lightbox-nav lightbox-next" title="Next photo (Right Arrow)">&#10095;</a>
     </div>
   {% endfor %}
 {% endfor %}
+
+<!-- 3. Keyboard Navigation Script -->
+<script>
+  document.addEventListener('keydown', function (e) {
+    if (!window.location.hash || !window.location.hash.startsWith('#img-')) return;
+
+    const currentLightbox = document.querySelector(window.location.hash);
+    if (!currentLightbox) return;
+
+    if (e.key === 'Escape') {
+      window.location.hash = '_';
+    } else if (e.key === 'ArrowLeft') {
+      const prevBtn = currentLightbox.querySelector('.lightbox-prev');
+      if (prevBtn) prevBtn.click();
+    } else if (e.key === 'ArrowRight') {
+      const nextBtn = currentLightbox.querySelector('.lightbox-next');
+      if (nextBtn) nextBtn.click();
+    }
+  });
+</script>
