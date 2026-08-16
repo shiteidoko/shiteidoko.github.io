@@ -56,9 +56,31 @@
     text-transform: capitalize;
   }
 
-  /* Ensure FsLightbox SVGs remain visible */
-  .fslightbox-svg {
+  /* Neutralize Minima theme resets for FsLightbox Icons */
+  .fslightbox-container svg {
+    max-width: none !important;
+    height: auto !important;
+    display: inline-block !important;
     fill: #ffffff !important;
+  }
+
+  .fslightbox-slide-btn-container {
+    display: flex !important;
+  }
+
+  .fslightbox-slide-btn {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+  }
+
+  .fslightbox-slide-btn:hover {
+    background: rgba(0, 0, 0, 0.6);
   }
 </style>
 
@@ -88,7 +110,7 @@
           {% assign filename = file.name | split: "." | first %}
           {% assign caption = filename | replace: "-", " " | replace: "_", " " %}
           
-          <a data-fslightbox="gallery" 
+          <a data-fslightbox="gallery-{{ year }}" 
              data-caption="{{ caption }}" 
              href="{{ file.path | relative_url }}" 
              class="photo-card">
