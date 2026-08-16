@@ -1,12 +1,19 @@
-<!-- Load FsLightbox JS in <head> or before </body> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.4.1/index.js"></script>
 
-<div class="photo-gallery">
-  {% for photo in site.data.photos %}
-    <a data-fslightbox="gallery" 
-       data-caption="{{ photo.title }}" 
-       href="{{ photo.image }}">
-      <img src="{{ photo.thumbnail | default: photo.image }}" alt="{{ photo.title }}">
-    </a>
-  {% endfor %}
-</div>
+{% assign photos_by_year = site.data.photos | group_by: "year" | sort: "name" | reverse %}
+
+{% for year_group in photos_by_year %}
+  <section class="year-section">
+    <h2>{{ year_group.name }}</h2>
+    
+    <div class="photo-gallery">
+      {% for photo in year_group.items %}
+        <a data-fslightbox="gallery-{{ year_group.name }}" 
+           data-caption="{{ photo.title }}" 
+           href="{{ photo.image }}">
+          <img src="{{ photo.thumbnail | default: photo.image }}" alt="{{ photo.title }}">
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endfor %}
