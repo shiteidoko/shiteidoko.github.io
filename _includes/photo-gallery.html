@@ -1,0 +1,28 @@
+{% assign grouped_photos = site.data.photos | group_by: "year" | sort: "name" | reverse %}
+
+{% for group in grouped_photos %}
+  <h2 class="year-heading">{{ group.name }}</h2>
+  <div class="photo-grid">
+    {% for item in group.items %}
+      <div class="photo-card">
+        <a href="#img-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy" />
+        </a>
+        
+        <!-- Lightbox Modal -->
+        <div id="img-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="lightbox">
+          <a href="#_" class="lightbox-close">&times;</a>
+          <div class="lightbox-content">
+            <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" />
+            {% if item.title or item.caption %}
+              <div class="lightbox-caption">
+                <strong>{{ item.title }}</strong>
+                {% if item.caption %}<p>{{ item.caption }}</p>{% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

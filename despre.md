@@ -1,6 +1,10 @@
 ---
 layout: page
-title: Despre noi
+title: Clubul Sportiv ShiTeiDoko
 ---
 
-This is the content of the about page...
+![Logo](logos/logo.png)
+
+Despre noi
+
+
