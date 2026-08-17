@@ -6,4 +6,4 @@ permalink: /
 
 ![Logo](/assets/logos/logo.png)
 
-test test test
+Despre club
