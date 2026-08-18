@@ -6,4 +6,12 @@ permalink: /
 
 ![Logo](/assets/logos/logo.png)
 
-Despre club
+
+
+Alege clublul sportiv ShiTeiDoko:
+
+## [Ju-Jitsu](https://facebook.com/jujitsu)
+
+## [Sustine ShiTeiDoko](https://facebook.com/comunitate)
+
+De ce ShiTeiDoko

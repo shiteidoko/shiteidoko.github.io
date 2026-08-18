@@ -3,6 +3,7 @@ title: ShiTeiDoko
 description: Clubul Sportiv ShiTeiDoko
 
 header_pages:
+  - index.md
   - about.md
   - ju-jitsu.md
   - program.md
