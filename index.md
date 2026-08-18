@@ -1,17 +1,23 @@
 ---
 layout: home
-title: Clubul Sportiv ShiTeiDoko
+title: Acasa
 permalink: /
+body_class: hide-page-title
 ---
+
+# Clubul Sportiv ShiTeiDoKo
 
 ![Logo](/assets/logos/logo.png)
 
+Incurajeaza copilul sa faca primii pasi in Ju-Jitsu
 
-Alege clublul sportiv ShiTeiDoko:
+Alege clublul sportiv ShiTeiDoKo
 
-## [Ju-Jitsu](https://shiteidoko.github.io/jujitsu)
+## [Ju-Jitsu](https://shiteidoko.github.io/ju-jitsu)
 
-De ce ShiTeiDoko ?
+De ce ShiTeiDoKo ?
+
+Text text text text
 
 ## [Despre noi](https://shiteidoko.github.io/about)
 
@@ -23,7 +29,8 @@ pentru tine.
 
 ## [Sustine ShiTeiDoko](https://shiteidoko.github.io/comunitate)
 
-Club Sportiv ShiTeiDoko
+
+Club Sportiv ShiTeiDoKo
 
 Adresa: str. Grivitei, nr 32 A, Constanța, Constanta, Romania
 
