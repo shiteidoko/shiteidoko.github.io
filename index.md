@@ -2,8 +2,9 @@
 layout: home
 title: Acasa
 permalink: /
-body_class: hide-page-title
 ---
+
+<style>.post-title, .page-heading { display: none; }</style>
 
 # Clubul Sportiv ShiTeiDoKo
 
