@@ -4,10 +4,6 @@ title: Acasa
 permalink: /
 ---
 
-<style>.post-title, .page-heading { display: none; }</style>
-
-# Clubul Sportiv ShiTeiDoKo
-
 ![Logo](/assets/logos/logo.png)
 
 Incurajeaza copilul sa faca primii pasi in Ju-Jitsu
