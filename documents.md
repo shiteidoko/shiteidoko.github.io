@@ -5,6 +5,10 @@ title: Documente
 
 **Documente Club Sportiv ShiTeiDoko**
 
+Inscriere
+
+Documente necesare
+
 **Ju-Jitsu International Federation JJIF**
 
 [Ju-Jitsu International Federation JJIF documents](https://www.ju-jitsu.sport/organization/about-us/downloads)

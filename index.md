@@ -8,23 +8,25 @@ permalink: /
 
 Incurajeaza copilul sa faca primii pasi in Ju-Jitsu
 
-Alege clublul sportiv ShiTeiDoKo
+Alege clublul sportiv ShiTeiDoKo Constanta
 
-## [Ju-Jitsu](https://shiteidoko.github.io/ju-jitsu)
+[Informatii Ju-Jitsu](https://shiteidoko.github.io/ju-jitsu)
 
 De ce ShiTeiDoKo ?
 
-Text text text text
+Despre ShiTeiDoKo, informatii ju-jitsu
 
-## [Despre noi](https://shiteidoko.github.io/about)
+Misiunea ShiTeiDoKo
+
+[Despre noi](https://shiteidoko.github.io/about)
 
 Sustine-ti copiii sa practice Ju-Jitsu
 
-Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo, fără niciun cost
+Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo,
 
-pentru tine.
+fără niciun cost pentru tine.
 
-## [Sustine ShiTeiDoko](https://shiteidoko.github.io/comunitate)
+[Sustine ShiTeiDoko](https://shiteidoko.github.io/comunitate)
 
 
 Club Sportiv ShiTeiDoKo

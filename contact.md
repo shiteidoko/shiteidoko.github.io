@@ -6,7 +6,7 @@ title: Contact
 ![Logo](/assets/logos/logo.png)
 
 
-Club Sportiv ShiTeiDoko
+Club Sportiv ShiTeiDoKo
 
 Adresa: str. Grivitei, nr 32 A, Constanța, Constanta, Romania
 
