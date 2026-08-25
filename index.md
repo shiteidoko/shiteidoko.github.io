@@ -8,7 +8,7 @@ permalink: /
 
 <br>
 
-In cadrul clubului nostru exista mai multe sectii:
+In cadrul clubului nostru se practica Ju-Jitsu:
 
 * Brazilian Ju-Jitsu
 
