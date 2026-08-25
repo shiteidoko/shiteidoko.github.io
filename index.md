@@ -6,7 +6,13 @@ permalink: /
 
 Antrenamente de BJJ si Ju-Jitsu Traditional pentru copii și adulti.
 
-Construieste disciplina, incredere și tehnica intr-un mediu dedicat performantei. 
+Construieste disciplina, incredere și tehnica intr-un mediu dedicat performantei.
+
+[Programeaza o sedinta gratuita](https://shiteidoko.github.io/contact)
+
+[Vezi Programul](https://shiteidoko.github.io/program)
+
+<br>
 
 ![Logo](/assets/logos/logo.png)
 
