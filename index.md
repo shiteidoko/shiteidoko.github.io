@@ -6,11 +6,25 @@ permalink: /
 
 ![Logo](/assets/logos/logo.png)
 
+<br>
+
+In cadrul clubului nostru exista mai multe sectii:
+
+* Brazilian Ju-Jitsu
+
+* Ju-Jitsu Traditional (JJIF)
+    * Ne Waza
+    * Fighting
+
+Avem clase pentru adulti si copii.
+
 Incurajeaza copilul sa faca primii pasi in Ju-Jitsu
 
 Alege clublul sportiv ShiTeiDoKo Constanta
 
 [Informatii Ju-Jitsu](https://shiteidoko.github.io/ju-jitsu)
+
+<br>
 
 De ce ShiTeiDoKo ?
 
@@ -20,6 +34,8 @@ Misiunea ShiTeiDoKo
 
 [Despre noi](https://shiteidoko.github.io/about)
 
+<br>
+
 Sustine-ti copiii sa practice Ju-Jitsu
 
 Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo,
@@ -28,6 +44,7 @@ fără niciun cost pentru tine.
 
 [Sustine ShiTeiDoko](https://shiteidoko.github.io/comunitate)
 
+<br>
 
 Club Sportiv ShiTeiDoKo
 
