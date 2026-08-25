@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: home
 title: Acasa
 permalink: /
 ---
 
-{% include hero.html %}
+Antrenamente de BJJ si Ju-Jitsu Traditional pentru copii și adulti.
 
+Construieste disciplina, incredere și tehnica intr-un mediu dedicat performantei. 
 
 ![Logo](/assets/logos/logo.png)
 
