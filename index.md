@@ -1,13 +1,13 @@
 ---
-layout: home
+layout: default
 title: Acasa
 permalink: /
 ---
 
 {% include hero.html %}
 
-<div class="wrapper">
-  ![Logo](/assets/logos/logo.png)
+
+![Logo](/assets/logos/logo.png)
 
 <br>
 
@@ -56,4 +56,3 @@ Adresa: str. Grivitei, nr 32 A, Constanța, Constanta, Romania
 Telefon: 0721 704 551
 
 Email: contact@shiteidoko.ro
-</div>
