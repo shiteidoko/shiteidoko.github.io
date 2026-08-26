@@ -4,9 +4,7 @@ title: Acasa
 permalink: /
 ---
 
-![Logo](/assets/logos/logo.png)
-
-<div style="position: relative; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('assets/images/hero_club.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
+<div style="position: relative; background: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.65)), url('assets/images/hero_club.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
   <h1 style="color: #ffffff; margin-top: 0; font-size: 2.2rem; font-weight: 700;">Clubul Sportiv ShiTeiDoko</h1>
   
   <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
@@ -31,7 +29,7 @@ Misiunea ShiTeiDoKo
 
 <br>
 
-<div style="position: relative; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
+<div style="position: relative; background: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.65)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
 
   <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
     Sustine-ti copiii sa practice Ju-Jitsu!
