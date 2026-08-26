@@ -12,3 +12,5 @@ Istorie si informatii Ju-Jitsu:
 [Ju-Jitsu History](https://www.ju-jitsu.sport/the-sport/ju-jitsu-history)
 
 [Ju-Jitsu Ne Waza](https://www.ju-jitsu.sport/the-sport/jiu-jitsu-newaza)
+
+[Judo History](https://www.ijf.org/history)

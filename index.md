@@ -4,7 +4,7 @@ title: Acasa
 permalink: /
 ---
 
-<div style="position: relative; background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.65)), url('assets/images/hero_club.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
+<div style="position: relative; z-index: 1; background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.65)), url('assets/images/hero_club.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
   <h1 style="color: #ffffff; margin-top: 0; font-size: 2.2rem; font-weight: 700;">Clubul Sportiv ShiTeiDoko</h1>
   
   <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
@@ -21,15 +21,17 @@ permalink: /
 
 De ce ShiTeiDoKo ?
 
-Despre ShiTeiDoKo, informatii ju-jitsu
+* Fără experiență anterioară necesară (antrenăm începători de la zero).
 
-Misiunea ShiTeiDoKo
+* Mediu sigur și structurat, condus de instructori cu experienta.
+
+* Potrivit pentru toate vârstele (clase speciale pentru copii și programe structurate pentru adulți).
 
 [Despre noi](https://shiteidoko.github.io/about)
 
 <br>
 
-<div style="position: relative; background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.65)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
+<div style="position: relative; z-index: 1; background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.65)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
 
   <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
     Sustine-ti copiii sa practice Ju-Jitsu!
