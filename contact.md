@@ -3,26 +3,34 @@ layout: page
 title: Contact
 ---
 
-![Logo](/assets/logos/logo.png)
+<br>
+
+<div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_club1.jpg') center/cover no-repeat; padding: 3rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+  <h2 style="color: #ffffff; margin-top: 0; font-size: 1.8rem; font-weight: 700;">Hai să vorbim!</h2>
+  <p style="font-size: 1.15rem; line-height: 1.6; color: #ffffff; font-weight: 500;">
+    Te așteptăm la sală pentru o ședință de antrenament gratuită sau ne poți contacta oricând prin telefon, WhatsApp sau email.
+  </p>
+</div>
 
 <br>
 
-Club Sportiv ShiTeiDoKo
+### Clubul Sportiv ShiTeiDoKo
 
-Adresa: str. Grivitei, nr 32 A, Constanța, Constanta, Romania
+* 📍 **Adresă:** str. Griviței, nr. 32A, Constanța, România
+* 📞 **Telefon:** [0721 704 551](tel:+40721704551)
+* ✉️ **Email:** contact@shiteidoko.ro
+* 📘 **Facebook:** [ShiTeiDoko](https://facebook.com/shiteidoko)
 
-Telefon: 0721 704 551
+<br>
 
-Facebook: [ShiTeiDoko](https://facebook.com/shiteidoko)
+### Contactează-ne instant
 
-Email: contact@shiteidoko.ro
-
-<div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+<div style="display: flex; gap: 1rem; margin-bottom: 2.5rem; flex-wrap: wrap;">
   <a href="tel:+40721704551" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-flex; align-items: center; gap: 10px;">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#ffffff">
       <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
     </svg>
-    Sune-ne acum
+    Sună-ne acum
   </a>
 
   <a href="https://wa.me/40721704551" target="_blank" rel="noopener noreferrer" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-flex; align-items: center; gap: 10px;">
@@ -35,4 +43,8 @@ Email: contact@shiteidoko.ro
 
 <br>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.4714461560197!2d28.64098857632998!3d44.176752518411924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40bae512330ca27b%3A0x39585354d3b2d682!2sBULLTERRIERS%20FIGHT%20ACADEMY%20BJJ!5e0!3m2!1sen!2sro!4v1786879743215!5m2!1sen!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+### Unde ne găsești?
+
+<div style="width: 100%; max-width: 100%;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.4714461560197!2d28.64098857632998!3d44.176752518411924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40bae512330ca27b%3A0x39585354d3b2d682!2sBULLTERRIERS%20FIGHT%20ACADEMY%20BJJ!5e0!3m2!1sen!2sro!4v1786879743215!5m2!1sen!2sro" width="100%" height="450" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
