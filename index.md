@@ -4,10 +4,10 @@ title: Acasa
 permalink: /
 ---
 
-<div style="background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.65)), url('assets/images/hero_club1.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
+<div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_club1.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
   <h1 style="color: #ffffff; margin-top: 0; font-size: 2.2rem; font-weight: 700;">Clubul Sportiv ShiTeiDoKo</h1>
   
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
+  <p style="font-size: 1.2rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
     Antrenamente de BJJ și Ju-Jitsu Tradițional pentru copii și adulți. Construiește disciplină, încredere și tehnică într-un mediu dedicat performanței.
   </p>
 
@@ -19,22 +19,20 @@ permalink: /
 
 <br>
 
-<div style="background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.65)), url('assets/images/hero_club2.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
+<div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_club2.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
 
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
-    De ce ShiTeiDoKo ?
+  <h3 style="color: #ffffff; margin-top: 0; font-size: 1.5rem; font-weight: 700;">De ce ShiTeiDoKo?</h3>
+
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
+    ✓ Fără experiență anterioară necesară (antrenăm începători de la zero).
   </p>
 
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
-    Fără experiență anterioară necesară (antrenăm începători de la zero).
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
+    ✓ Mediu sigur și structurat, condus de instructori cu experiență.
   </p>
 
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
-    Mediu sigur și structurat, condus de instructori cu experienta.
-  </p>
-
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
-    Clase speciale pentru copii și programe structurate pentru adulți.
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
+    ✓ Clase speciale pentru copii și programe structurate pentru adulți.
   </p>
 
   <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
@@ -45,18 +43,16 @@ permalink: /
 
 <br>
 
-<div style="background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.65)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
+<div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
 
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
-    Sustine-ti copiii sa practice Ju-Jitsu!
-  </p>
+  <h3 style="color: #ffffff; margin-top: 0; font-size: 1.5rem; font-weight: 700;">Susține-ți copiii să practice Ju-Jitsu!</h3>
 
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
     Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo, fără niciun cost pentru tine.
   </p>
 
   <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
-    <a href="https://shiteidoko.github.io/comunitate" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Sustine ShiTeiDoko</a>
+    <a href="https://shiteidoko.github.io/comunitate" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Susține ShiTeiDoko</a>
   </div>
 </div>
 
@@ -78,7 +74,7 @@ Email: contact@shiteidoko.ro
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#ffffff">
       <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
     </svg>
-    Sune-ne acum
+    Sună-ne acum
   </a>
 
   <a href="https://wa.me/40721704551" target="_blank" rel="noopener noreferrer" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-flex; align-items: center; gap: 10px;">

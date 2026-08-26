@@ -5,33 +5,32 @@ title: Comunitate
 
 <br>
 
-<div style="background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.65)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
+<div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
 
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
-    Sustine-ti copiii sa practice Ju-Jitsu!
-  </p>
+  <h3 style="color: #ffffff; margin-top: 0; font-size: 1.5rem; font-weight: 700;">Susține-ți copiii să practice Ju-Jitsu!</h3>
 
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
     Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo, fără niciun cost pentru tine.
   </p>
 
   <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
-    <a href="https://shiteidoko.github.io/comunitate" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Sustine ShiTeiDoko</a>
+    <a href="https://shiteidoko.github.io/comunitate" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Susține ShiTeiDoko</a>
   </div>
 </div>
 
 <br>
 
-Suntem prezenti pe social media:
+### Rămâi conectat cu noi
 
-[Social media](https://shiteidoko.github.io/media).
+Suntem prezenți pe rețelele de socializare:
 
-Vizitati grupul de facebook ShiTeiDoKo:
-
-[Recenzii primite](https://www.facebook.com/shiteidoko/reviews/)
+* 📱 **[Social Media](https://shiteidoko.github.io/media)** – Urmărește activitatea din club.
+* ⭐ **[Recenzii Facebook](https://www.facebook.com/shiteidoko/reviews/)** – Vezi ce spun membrii și părinții despre noi.
 
 <br>
 
-ShiTeiDoKo sticker pack:
+### Descarcă materiale
 
-[Sticker pack](https://shiteidoko.github.io/assets/sticker_pack.zip)
+Vrei să ne susții sau sa printezi stickerele ? Descarcă pachetul nostru:
+
+* 📥 **[ShiTeiDoKo Sticker Pack (.zip)](https://shiteidoko.github.io/assets/sticker_pack.zip)**
