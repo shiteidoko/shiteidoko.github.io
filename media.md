@@ -12,3 +12,5 @@ Photos/Videos:
 [ShiTeiDoko instagram](https://instagram.com/shiteidoko).
 
 [ShiTeiDoko youtube](https://youtube.com/shiteidoko).
+
+[ShiTeiDoko X](https://x.com/shiteidoko).
