@@ -8,9 +8,9 @@ Antrenamente de BJJ si Ju-Jitsu Traditional pentru copii și adulti.
 
 Construieste disciplina, incredere și tehnica intr-un mediu dedicat performantei.
 
-[Programeaza o sedinta gratuita](https://shiteidoko.github.io/contact)
-
-[Vezi Programul](https://shiteidoko.github.io/program)
+<div style="display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+  <a href="https://shiteidoko.github.io/contact" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Programează o ședință gratuită</a> <a href="https://shiteidoko.github.io/program" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Vezi Programul</a>
+</div>
 
 <br>
 
