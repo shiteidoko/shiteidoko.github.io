@@ -5,6 +5,8 @@ title: Media
 
 ![Logo](/assets/logos/logo.png)
 
+<br>
+
 Photos/Videos:
 
 [ShiTeiDoko facebook](https://facebook.com/shiteidoko).

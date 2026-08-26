@@ -5,7 +5,9 @@ title: Ju-Jitsu
 
 ![Logo](/assets/logos/logo.png)
 
-Despre Ju-Jitsu
+<br>
+
+Istorie si informatii Ju-Jitsu:
 
 [Ju-Jitsu History](https://www.ju-jitsu.sport/the-sport/ju-jitsu-history)
 

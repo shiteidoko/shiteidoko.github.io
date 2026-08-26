@@ -5,7 +5,7 @@ title: Despre noi
 
 ![Logo](/assets/logos/logo.png)
 
-Despre noi
+<br>
 
 In cadrul clubului nostru se practica Ju-Jitsu:
 
