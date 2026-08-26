@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div style="background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.65)), url('assets/images/hero_club.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
-  <h1 style="color: #ffffff; margin-top: 0; font-size: 2.2rem; font-weight: 700;">Clubul Sportiv ShiTeiDoko</h1>
+  <h1 style="color: #ffffff; margin-top: 0; font-size: 2.2rem; font-weight: 700;">Clubul Sportiv ShiTeiDoKo</h1>
   
   <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
     Antrenamente de BJJ și Ju-Jitsu Tradițional pentru copii și adulți. Construiește disciplină, încredere și tehnică într-un mediu dedicat performanței.
@@ -19,15 +19,29 @@ permalink: /
 
 <br>
 
-De ce ShiTeiDoKo ?
+<div style="background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.65)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem;">
 
-* Fără experiență anterioară necesară (antrenăm începători de la zero).
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
+    De ce ShiTeiDoKo ?
+  </p>
 
-* Mediu sigur și structurat, condus de instructori cu experienta.
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
+    Fără experiență anterioară necesară (antrenăm începători de la zero).
+  </p>
 
-* Potrivit pentru toate vârstele (clase speciale pentru copii și programe structurate pentru adulți).
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
+    Mediu sigur și structurat, condus de instructori cu experienta.
+  </p>
 
-[Despre noi](https://shiteidoko.github.io/about)
+  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.5; color: #f0f0f0;">
+    Clase speciale pentru copii și programe structurate pentru adulți.
+  </p>
+
+  <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+    <a href="https://shiteidoko.github.io/about" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Despre noi</a>
+    <a href="https://www.facebook.com/shiteidoko/reviews/" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Recenzii primite</a>
+  </div>
+</div>
 
 <br>
 

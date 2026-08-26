@@ -19,3 +19,19 @@ title: Comunitate
     <a href="https://shiteidoko.github.io/comunitate" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Sustine ShiTeiDoko</a>
   </div>
 </div>
+
+<br>
+
+Suntem prezenti pe social media:
+
+[Social media](https://shiteidoko.github.io/media).
+
+Vizitati grupul de facebook ShiTeiDoKo:
+
+[Recenzii primite](https://www.facebook.com/shiteidoko/reviews/)
+
+<br>
+
+Sticker pack:
+
+

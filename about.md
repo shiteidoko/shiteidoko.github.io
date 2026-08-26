@@ -23,4 +23,6 @@ Alege clublul sportiv ShiTeiDoKo Constanta.
 
 [Informatii Ju-Jitsu](https://shiteidoko.github.io/ju-jitsu)
 
+[Recenzii primite](https://www.facebook.com/shiteidoko/reviews/)
+
 <br>

@@ -13,6 +13,8 @@ Adresa: str. Grivitei, nr 32 A, Constanța, Constanta, Romania
 
 Telefon: 0721 704 551
 
+Facebook: [ShiTeiDoko](https://facebook.com/shiteidoko)
+
 Email: contact@shiteidoko.ro
 
 <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
