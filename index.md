@@ -2,6 +2,7 @@
 layout: home
 title: Acasa
 permalink: /
+description: ""
 ---
 
 <div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_club1.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">

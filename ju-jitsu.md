@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ju-Jitsu
+description: ""
 ---
 
 <br>

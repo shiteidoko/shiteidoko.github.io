@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Despre noi
+description: ""
 ---
 
 <br>
