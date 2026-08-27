@@ -17,7 +17,7 @@ description: ""
 
 ### Ce stiluri practicăm?
 
-În cadrul clubului nostru din Constanța poți învăța:
+În cadrul clubului nostru din Constanța poți învăța Ju-Jitsu:
 
 * 🥋 **Brazilian Jiu-Jitsu (BJJ)** – Luptă la sol, control și tehnici de finalizare.
 * 🛡️ **Ju-Jitsu Tradițional (JJIF)** – Un sistem complet de autoapărare împărțit pe probele:
