@@ -117,7 +117,7 @@ description: ""
 <div class="hero-card">
   <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
   <div class="hero-content">
-  <h1 style="font-size: 2rem;">Galerie Foto & Video</h2>
+  <h1 style="font-size: 2rem;">Galerie Foto & Video</h1>
   <p>
     Urmărește atmosfera de la antrenamente, competiții și evenimente pe canalele noastre oficiale de social media. Fii la curent cu tot ce se întâmplă în club!
   </p>

@@ -117,7 +117,7 @@ description: ""
 <div class="hero-card">
   <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
   <div class="hero-content">
-  <h1 style="font-size: 2rem;">Program antrenamente</h2>
+  <h1 style="font-size: 2rem;">Program antrenamente</h1>
   <p>
     Te așteptăm la sală pentru antrenamente structurate de BJJ și Ju-Jitsu Tradițional. Indiferent dacă ești la primul tău antrenament sau ai experiență, vino să te antrenezi într-un mediu sigur și profesionist.
   </p>
