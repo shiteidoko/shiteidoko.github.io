@@ -5,54 +5,64 @@ permalink: /
 description: ""
 ---
 
-<!-- Global CSS for Vertical (Mobile-First) Card Layout -->
+<!-- Global CSS for Modern Card Design & Responsiveness -->
 <style>
   .hero-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .hero-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+
+  .hero-card.reverse {
+    flex-direction: row-reverse;
   }
 
   .hero-image {
-    width: 100%;
-    height: 220px;
+    flex: 1;
+    min-height: 280px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .hero-content {
-    padding: 1.75rem 1.5rem;
+    flex: 1;
+    padding: 2.5rem 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: #1a1a1a;
   }
 
   .hero-content h1, .hero-content h3 {
     color: #111111 !important;
     margin-top: 0;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
     font-weight: 700;
   }
 
   .hero-content p {
     color: #333333;
-    font-size: 1rem;
+    font-size: 1.05rem;
     line-height: 1.6;
     margin-bottom: 0.8rem;
   }
 
   .btn-container {
     display: flex;
-    flex-direction: column;
     gap: 0.75rem;
-    margin-top: 1.25rem;
-    width: 100%;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
   }
 
   .btn-primary {
@@ -62,10 +72,8 @@ description: ""
     text-decoration: none;
     border-radius: 6px;
     font-weight: 600;
-    text-align: center;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
     transition: background-color 0.2s ease;
   }
@@ -82,13 +90,26 @@ description: ""
     text-decoration: none;
     border-radius: 6px;
     font-weight: 600;
-    text-align: center;
-    display: block;
+    display: inline-block;
     transition: background-color 0.2s ease;
   }
 
   .btn-secondary:hover {
     background-color: #e8f5e9;
+  }
+
+  /* Responsive layout for mobile devices */
+  @media (max-width: 768px) {
+    .hero-card, .hero-card.reverse {
+      flex-direction: column;
+    }
+    .hero-image {
+      height: 220px;
+      width: 100%;
+    }
+    .hero-content {
+      padding: 1.5rem;
+    }
   }
 </style>
 
@@ -96,7 +117,7 @@ description: ""
 <div class="hero-card">
   <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
   <div class="hero-content">
-    <h1 style="font-size: 1.8rem;">Clubul Sportiv ShiTeiDoKo</h1>
+    <h1 style="font-size: 2rem;">Clubul Sportiv ShiTeiDoKo</h1>
     <p>Antrenamente de Brazilian Ju-Jitsu și Ju-Jitsu Tradițional pentru copii și adulți. Construiește disciplină, încredere și tehnică într-un mediu dedicat performanței.</p>
     <div class="btn-container">
       <a href="https://shiteidoko.github.io/contact" class="btn-primary">Programează o ședință gratuită</a>
@@ -106,10 +127,10 @@ description: ""
 </div>
 
 <!-- SECTION 2: WHY US -->
-<div class="hero-card">
+<div class="hero-card reverse">
   <div class="hero-image" style="background-image: url('assets/images/hero_club2.jpg');"></div>
   <div class="hero-content">
-    <h3 style="font-size: 1.5rem;">De ce ShiTeiDoKo?</h3>
+    <h3 style="font-size: 1.6rem;">De ce ShiTeiDoKo?</h3>
     <p>✓ <strong>Fără experiență anterioară:</strong> Antrenăm începători de la zero.</p>
     <p>✓ <strong>Mediu sigur și structurat:</strong> Condus de instructori cu experiență.</p>
     <p>✓ <strong>Programe dedicate:</strong> Clase speciale pentru copii și grupuri de adulți.</p>
@@ -124,13 +145,14 @@ description: ""
 <div class="hero-card">
   <div class="hero-image" style="background-image: url('assets/images/hero_copii.jpg');"></div>
   <div class="hero-content">
-    <h3 style="font-size: 1.5rem;">Susține-ți copiii să practice Ju-Jitsu!</h3>
+    <h3 style="font-size: 1.6rem;">Susține-ți copiii să practice Ju-Jitsu!</h3>
     <p>Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo, fără niciun cost suplimentar pentru tine.</p>
     <div class="btn-container">
       <a href="https://shiteidoko.github.io/comunitate" class="btn-primary">Susține ShiTeiDoKo</a>
     </div>
   </div>
 </div>
+<br>
 
 Club Sportiv ShiTeiDoKo
 
