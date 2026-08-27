@@ -22,3 +22,9 @@
     flex-shrink: 0;
   }
 }
+
+/* Page & Post Title Size */
+.post-title {
+  font-size: 1.50rem !important; /* Default Minima v2 is ~2.625rem / 42px */
+  letter-spacing: -0.5px;
+}
