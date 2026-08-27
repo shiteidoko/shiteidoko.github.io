@@ -112,8 +112,6 @@ description: ""
   }
 </style>
 
-<br>
-
 <div class="hero-card">
   <div class="hero-image" style="background-image: url('assets/images/hero_copii.jpg');"></div>
   <div class="hero-content">
