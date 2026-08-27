@@ -20,7 +20,7 @@ description: ""
 * 📍 **Adresă:** str. Griviței, nr. 32A, Constanța, România
 * 📞 **Telefon:** [0721 704 551](tel:+40721704551)
 * ✉️ **Email:** contact@shiteidoko.ro
-* 📘 **Facebook:** [ShiTeiDoko](https://facebook.com/shiteidoko)
+* 📘 **Facebook:** [ShiTeiDoKo](https://facebook.com/shiteidoko)
 
 <br>
 

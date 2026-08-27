@@ -5,60 +5,153 @@ permalink: /
 description: ""
 ---
 
-<br>
-
-<div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_club1.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
-  <h1 style="color: #ffffff; margin-top: 0; font-size: 2.2rem; font-weight: 700;">Clubul Sportiv ShiTeiDoKo</h1>
+<!-- Global CSS for Modern Card Design & Responsiveness -->
+<style>
+  .hero-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
   
-  <p style="font-size: 1.2rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
-    Antrenamente de BJJ și Ju-Jitsu Tradițional pentru copii și adulți. Construiește disciplină, încredere și tehnică într-un mediu dedicat performanței.
-  </p>
+  .hero-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
 
-  <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
-    <a href="https://shiteidoko.github.io/contact" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Programează o ședință gratuită</a>
-    <a href="https://shiteidoko.github.io/program" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Vezi Programul</a>
+  .hero-card.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .hero-image {
+    flex: 1;
+    min-height: 280px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .hero-content {
+    flex: 1;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1a1a1a;
+  }
+
+  .hero-content h1, .hero-content h3 {
+    color: #111111 !important;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .hero-content p {
+    color: #333333;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+  }
+
+  .btn-container {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background-color: #2e7d32;
+    color: #ffffff !important;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #1b5e20;
+  }
+
+  .btn-secondary {
+    background-color: #f5f5f5;
+    color: #2e7d32 !important;
+    border: 1px solid #2e7d32;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn-secondary:hover {
+    background-color: #e8f5e9;
+  }
+
+  /* Responsive layout for mobile devices */
+  @media (max-width: 768px) {
+    .hero-card, .hero-card.reverse {
+      flex-direction: column;
+    }
+    .hero-image {
+      height: 220px;
+      width: 100%;
+    }
+    .hero-content {
+      padding: 1.5rem;
+    }
+  }
+</style>
+
+<!-- SECTION 1: HERO -->
+<div class="hero-card">
+  <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
+  <div class="hero-content">
+    <h1 style="font-size: 2rem;">Clubul Sportiv ShiTeiDoKo</h1>
+    <p>Antrenamente de Brazilian Ju-Jitsu și Ju-Jitsu Tradițional pentru copii și adulți. Construiește disciplină, încredere și tehnică într-un mediu dedicat performanței.</p>
+    <div class="btn-container">
+      <a href="https://shiteidoko.github.io/contact" class="btn-primary">Programează o ședință gratuită</a>
+      <a href="https://shiteidoko.github.io/program" class="btn-secondary">Vezi Programul</a>
+    </div>
   </div>
 </div>
 
-<br>
-
-<div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_club2.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
-
-  <h3 style="color: #ffffff; margin-top: 0; font-size: 1.5rem; font-weight: 700;">De ce ShiTeiDoKo?</h3>
-
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
-    ✓ Fără experiență anterioară necesară (antrenăm începători de la zero).
-  </p>
-
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
-    ✓ Mediu sigur și structurat, condus de instructori cu experiență.
-  </p>
-
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
-    ✓ Clase speciale pentru copii și programe structurate pentru adulți.
-  </p>
-
-  <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
-    <a href="https://shiteidoko.github.io/about" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Despre noi</a>
-    <a href="https://www.facebook.com/shiteidoko/reviews/" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Recenzii primite</a>
+<!-- SECTION 2: WHY US -->
+<div class="hero-card reverse">
+  <div class="hero-image" style="background-image: url('assets/images/hero_club2.jpg');"></div>
+  <div class="hero-content">
+    <h3 style="font-size: 1.6rem;">De ce ShiTeiDoKo?</h3>
+    <p>✓ <strong>Fără experiență anterioară:</strong> Antrenăm începători de la zero.</p>
+    <p>✓ <strong>Mediu sigur și structurat:</strong> Condus de instructori cu experiență.</p>
+    <p>✓ <strong>Programe dedicate:</strong> Clase speciale pentru copii și grupuri de adulți.</p>
+    <div class="btn-container">
+      <a href="https://shiteidoko.github.io/about" class="btn-primary">Despre noi</a>
+      <a href="https://www.facebook.com/shiteidoko/reviews/" class="btn-secondary" target="_blank" rel="noopener">Recenzii primite</a>
+    </div>
   </div>
 </div>
 
-<br>
-
-<div style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.80)), url('assets/images/hero_copii.jpg') center/cover no-repeat; padding: 3.5rem 2rem; border-radius: 8px; color: #ffffff; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
-
-  <h3 style="color: #ffffff; margin-top: 0; font-size: 1.5rem; font-weight: 700;">Susține-ți copiii să practice Ju-Jitsu!</h3>
-
-  <p style="font-size: 1.15rem; max-width: 600px; line-height: 1.6; color: #ffffff; font-weight: 500;">
-    Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo, fără niciun cost pentru tine.
-  </p>
-
-  <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
-    <a href="https://shiteidoko.github.io/comunitate" style="background-color: #2e7d32; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Susține ShiTeiDoko</a>
+<!-- SECTION 3: COMMUNITY / TAX SUPPORT -->
+<div class="hero-card">
+  <div class="hero-image" style="background-image: url('assets/images/hero_copii.jpg');"></div>
+  <div class="hero-content">
+    <h3 style="font-size: 1.6rem;">Susține-ți copiii să practice Ju-Jitsu!</h3>
+    <p>Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo, fără niciun cost suplimentar pentru tine.</p>
+    <div class="btn-container">
+      <a href="https://shiteidoko.github.io/comunitate" class="btn-primary">Susține ShiTeiDoKo</a>
+    </div>
   </div>
 </div>
-
 <br>
 
 Club Sportiv ShiTeiDoKo
