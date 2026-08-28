@@ -6,10 +6,23 @@
       {%- assign home_url = "/en/" -%}
     {%- endif -%}
 
-    <!-- Dynamic Site Title -->
-    <a class="site-title" rel="author" href="{{ home_url | relative_url }}">
-      {{ site.titles[current_lang] | default: site.title | escape }}
-    </a>
+    <div style="display: inline-flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+      <!-- Dynamic Site Title -->
+      <a class="site-title" rel="author" href="{{ home_url | relative_url }}" style="float: none; margin-right: 0;">
+        {{ site.titles[current_lang] | default: site.title | escape }}
+      </a>
+
+      <!-- Language Switcher Right After Title -->
+      <span class="lang-switcher" style="font-weight: bold; font-size: 0.9rem;">
+        {%- if current_lang == "ro" -%}
+          {%- assign target_url = page.url | prepend: "/en" -%}
+          <span style="color: #333;">RO</span> | <a href="{{ target_url | relative_url }}" style="text-decoration: none;">EN</a>
+        {%- else -%}
+          {%- assign target_url = page.url | replace: "/en/", "/" -%}
+          <a href="{{ target_url | relative_url }}" style="text-decoration: none;">RO</a> | <span style="color: #333;">EN</span>
+        {%- endif -%}
+      </span>
+    </div>
 
     <!-- Dynamic Navigation Menu -->
     {%- if site.navigation[current_lang] -%}
@@ -27,17 +40,6 @@
           {%- for link in site.navigation[current_lang] -%}
             <a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
           {%- endfor -%}
-
-          <!-- Language Switcher -->
-          <span class="lang-switcher" style="margin-left: 10px; font-weight: bold;">
-            {%- if current_lang == "ro" -%}
-              {%- assign target_url = page.url | prepend: "/en" -%}
-              <span class="active-lang">RO</span> | <a class="page-link" style="display: inline; padding: 0;" href="{{ target_url | relative_url }}">EN</a>
-            {%- else -%}
-              {%- assign target_url = page.url | replace: "/en/", "/" -%}
-              <a class="page-link" style="display: inline; padding: 0;" href="{{ target_url | relative_url }}">RO</a> | <span class="active-lang">EN</span>
-            {%- endif -%}
-          </span>
         </div>
       </nav>
     {%- endif -%}
