@@ -19,11 +19,20 @@ lang: en
 
 ### 🕒 Weekly Schedule
 
-| Day | Time | Group / Level |
+| Ziua | Interval Orar | Grupa |
 | :--- | :--- | :--- |
-| **Monday** | 19:30 - 21:00 | All Levels (Children & Adults) |
-| **Wednesday** | 19:30 - 21:00 | All Levels (Children & Adults) |
-| **Friday** | 19:30 - 21:00 | All Levels (Children & Adults) |
+| **Tuesday** | 19:00 - 20:00 | Children |
+| **Thursday** | 19:00 - 20:00 | Children |
+| **Saturday** | 9:30 - 10:30 | Children |
+
+<br>
+
+| Ziua | Interval Orar | Grupa |
+| :--- | :--- | :--- |
+| **Monday** | 19:00 - 21:00 | Adults |
+| **Wednesday** | 19:00 - 21:00 | Adults |
+| **Friday** | 19:00 - 21:00 | Adults |
+| **Saturday** | dupa ora 11:00 | Adults |
 
 <br>
 
