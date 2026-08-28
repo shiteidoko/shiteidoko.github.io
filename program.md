@@ -29,9 +29,9 @@ lang: ro
 
 | Ziua | Interval Orar | Grupa |
 | :--- | :--- | :--- |
-| **Luni** | 19:30 - 21:00 | Adulți |
-| **Miercuri** | 19:30 - 21:00 | Adulți |
-| **Vineri** | 19:30 - 21:00 | Adulți |
+| **Luni** | 19:00 - 21:00 | Adulți |
+| **Miercuri** | 19:00 - 21:00 | Adulți |
+| **Vineri** | 19:00 - 21:00 | Adulți |
 | **Sambata** | dupa ora 11:00 | Adulti |
 
 <br>
