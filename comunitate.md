@@ -2,6 +2,7 @@
 layout: page
 title: Comunitate
 description: ""
+lang: ro
 ---
 
 <div class="hero-card">

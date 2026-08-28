@@ -2,6 +2,7 @@
 layout: page
 title: Despre noi
 description: ""
+lang: ro
 ---
 
 <div class="hero-card">

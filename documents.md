@@ -2,6 +2,7 @@
 layout: page
 title: Documente
 description: ""
+lang: ro
 ---
 
 <div class="hero-card">

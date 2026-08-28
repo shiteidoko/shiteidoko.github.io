@@ -3,6 +3,7 @@ layout: home
 title: Acasa
 permalink: /
 description: ""
+lang: ro
 ---
 
 <!-- SECTION 1: HERO -->

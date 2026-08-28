@@ -2,6 +2,7 @@
 layout: page
 title: Program
 description: ""
+lang: ro
 ---
 
 <div class="hero-card">

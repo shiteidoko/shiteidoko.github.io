@@ -2,6 +2,7 @@
 layout: page
 title: Ju-Jitsu
 description: ""
+lang: ro
 ---
 
 <div class="hero-card">

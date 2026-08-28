@@ -2,6 +2,7 @@
 layout: page
 title: Media
 description: ""
+lang: ro
 ---
 
 <div class="hero-card">
