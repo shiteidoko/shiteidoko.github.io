@@ -2,12 +2,43 @@ theme: minima
 title: Clubul Sportiv ShiTeiDoKo
 description: ""
 
-header_pages:
-  - index.md
-  - about.md
-  - ju-jitsu.md
-  - program.md
-  - comunitate.md
-  - media.md
-  - documents.md
-  - contact.md
+titles:
+  ro: "Clubul Sportiv ShiTeiDoKo"
+  en: "ShiTeiDoKo Sports Club"
+
+navigation:
+  ro:
+    - title: "Acasă"
+      url: "/"
+    - title: "Despre noi"
+      url: "/about/"
+    - title: "Ju-Jitsu"
+      url: "/ju-jitsu/"
+    - title: "Program"
+      url: "/program/"
+    - title: "Comunitate"
+      url: "/comunitate/"
+    - title: "Media"
+      url: "/media/"
+    - title: "Documente"
+      url: "/documents/"
+    - title: "Contact"
+      url: "/contact/"
+
+  en:
+    - title: "Home"
+      url: "/en/"
+    - title: "About us"
+      url: "/en/about/"
+    - title: "Ju-Jitsu"
+      url: "/en/ju-jitsu/"
+    - title: "Schedule"
+      url: "/en/program/"
+    - title: "Community"
+      url: "/en/comunitate/"
+    - title: "Media"
+      url: "/en/media/"
+    - title: "Documents"
+      url: "/en/documents/"
+    - title: "Contact"
+      url: "/en/contact/"
