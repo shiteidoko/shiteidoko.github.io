@@ -19,20 +19,26 @@ lang: ro
 
 ### 🕒 Orarul Săptămânal
 
-| Ziua | Interval Orar | Grupa |
-| :--- | :--- | :--- |
-| **Marti** | 19:00 - 20:00 | Copii |
-| **Joi** | 19:00 - 20:00 | Copii |
-| **Sambata** | 9:30 - 10:30 | Copii |
+<br>
+
+**Grupa copii:**
+
+| Ziua | Interval Orar |
+| :--- | :--- |
+| **Marti** | 19:00 - 20:00 |
+| **Joi** | 19:00 - 20:00 |
+| **Sambata** | 9:30 - 10:30 |
 
 <br>
 
-| Ziua | Interval Orar | Grupa |
-| :--- | :--- | :--- |
-| **Luni** | 19:00 - 21:00 | Adulți |
-| **Miercuri** | 19:00 - 21:00 | Adulți |
-| **Vineri** | 19:00 - 21:00 | Adulți |
-| **Sambata** | dupa ora 11:00 | Adulti |
+**Grupa adulti:**
+
+| Ziua | Interval Orar |
+| :--- | :--- |
+| **Luni** | 19:00 - 21:00 |
+| **Miercuri** | 19:00 - 21:00 |
+| **Vineri** | 19:00 - 21:00 |
+| **Sambata** | dupa ora 11:00 |
 
 <br>
 
