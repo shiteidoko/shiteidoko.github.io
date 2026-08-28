@@ -11,7 +11,7 @@ lang: ro
     <h3 style="font-size: 1.6rem;">Susține-ți copiii să practice Ju-Jitsu!</h3>
     <p>Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo, fără niciun cost suplimentar pentru tine.</p>
     <div class="btn-container">
-      <a href="https://shiteidoko.github.io/comunitate" class="btn-primary">Susține ShiTeiDoKo</a>
+      <a href="{{ "/comunitate" | relative_url }}" class="btn-primary">Susține ShiTeiDoKo</a>
     </div>
   </div>
 </div>

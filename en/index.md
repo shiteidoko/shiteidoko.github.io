@@ -8,40 +8,40 @@ lang: en
 
 <!-- SECTION 1: HERO -->
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('/assets/images/hero_club1.jpg');"></div>
+  <div class="hero-image" style="background-image: url('{{ "/assets/images/hero_club1.jpg" | relative_url }}');"></div>
   <div class="hero-content">
     <h1 style="font-size: 2rem;">ShiTeiDoKo Sports Club</h1>
     <p>Training Brazilian Ju-Jitsu and Ju-Jitsu Traditional for children and adults. Build discipline, confidence and technique in an environment dedicated to performance.</p>
     <div class="btn-container">
-      <a href="https://shiteidoko.github.io/contact" class="btn-primary">Schedule a free session</a>
-      <a href="https://shiteidoko.github.io/program" class="btn-secondary">See The Program</a>
+      <a href="{{ "/en/contact" | relative_url }}" class="btn-primary">Schedule a free session</a>
+      <a href="{{ "/en/program" | relative_url }}" class="btn-secondary">See The Program</a>
     </div>
   </div>
 </div>
 
 <!-- SECTION 2: WHY US -->
 <div class="hero-card reverse">
-  <div class="hero-image" style="background-image: url('/assets/images/hero_club2.jpg');"></div>
+  <div class="hero-image" style="background-image: url('{{ "/assets/images/hero_club2.jpg" | relative_url }}');"></div>
   <div class="hero-content">
     <h3 style="font-size: 1.6rem;">Why ShiTeiDoKo?</h3>
     <p>✓ <strong>No previous experience:</strong> We train beginners from scratch.</p>
     <p>✓ <strong>Safe and structured environment:</strong> Led by experienced instructors.</p>
     <p>✓ <strong>Dedicated programs:</strong> Special classes for children and adult groups.</p>
     <div class="btn-container">
-      <a href="https://shiteidoko.github.io/about" class="btn-primary">Despre noi</a>
-      <a href="https://www.facebook.com/shiteidoko/reviews/" class="btn-secondary" target="_blank" rel="noopener">Recenzii primite</a>
+      <a href="{{ "/en/about" | relative_url }}" class="btn-primary">About Us</a>
+      <a href="https://www.facebook.com/shiteidoko/reviews/" class="btn-secondary" target="_blank" rel="noopener">Reviews</a>
     </div>
   </div>
 </div>
 
 <!-- SECTION 3: COMMUNITY / TAX SUPPORT -->
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('/assets/images/hero_copii.jpg');"></div>
+  <div class="hero-image" style="background-image: url('{{ "/assets/images/hero_copii.jpg" | relative_url }}');"></div>
   <div class="hero-content">
     <h3 style="font-size: 1.6rem;">Support your kids to practice Ju-Jitsu!</h3>
     <p>Redirect 3.5% of the tax to ShiTeiDoKo Sports Club at no extra cost to you.</p>
     <div class="btn-container">
-      <a href="https://shiteidoko.github.io/comunitate" class="btn-primary">Support ShiTeiDoKo</a>
+      <a href="{{ "/en/comunitate" | relative_url }}" class="btn-primary">Support ShiTeiDoKo</a>
     </div>
   </div>
 </div>

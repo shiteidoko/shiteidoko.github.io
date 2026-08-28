@@ -13,8 +13,8 @@ lang: ro
     <h1 style="font-size: 2rem;">Clubul Sportiv ShiTeiDoKo</h1>
     <p>Antrenamente de Brazilian Ju-Jitsu și Ju-Jitsu Tradițional pentru copii și adulți. Construiește disciplină, încredere și tehnică într-un mediu dedicat performanței.</p>
     <div class="btn-container">
-      <a href="https://shiteidoko.github.io/contact" class="btn-primary">Programează o ședință gratuită</a>
-      <a href="https://shiteidoko.github.io/program" class="btn-secondary">Vezi Programul</a>
+      <a href="{{ "/contact" | relative_url }}" class="btn-primary">Programează o ședință gratuită</a>
+      <a href="{{ "/program" | relative_url }}" class="btn-secondary">Vezi Programul</a>
     </div>
   </div>
 </div>
@@ -28,7 +28,7 @@ lang: ro
     <p>✓ <strong>Mediu sigur și structurat:</strong> Condus de instructori cu experiență.</p>
     <p>✓ <strong>Programe dedicate:</strong> Clase speciale pentru copii și grupuri de adulți.</p>
     <div class="btn-container">
-      <a href="https://shiteidoko.github.io/about" class="btn-primary">Despre noi</a>
+      <a href="{{ "/about" | relative_url }}" class="btn-primary">Despre noi</a>
       <a href="https://www.facebook.com/shiteidoko/reviews/" class="btn-secondary" target="_blank" rel="noopener">Recenzii primite</a>
     </div>
   </div>
@@ -41,7 +41,7 @@ lang: ro
     <h3 style="font-size: 1.6rem;">Susține-ți copiii să practice Ju-Jitsu!</h3>
     <p>Redirecționează 3,5% din impozit către Clubul Sportiv ShiTeiDoKo, fără niciun cost suplimentar pentru tine.</p>
     <div class="btn-container">
-      <a href="https://shiteidoko.github.io/comunitate" class="btn-primary">Susține ShiTeiDoKo</a>
+      <a href="{{ "/comunitate" | relative_url }}" class="btn-primary">Susține ShiTeiDoKo</a>
     </div>
   </div>
 </div>

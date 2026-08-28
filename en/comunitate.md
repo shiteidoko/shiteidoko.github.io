@@ -11,7 +11,7 @@ lang: en
     <h3 style="font-size: 1.6rem;">Support your children in practicing Ju-Jitsu!</h3>
     <p>Redirect 3.5% of your income tax to ShiTeiDoKo Sports Club at no extra cost to you.</p>
     <div class="btn-container">
-      <a href="https://shiteidoko.github.io/comunitate" class="btn-primary">Support ShiTeiDoKo</a>
+      <a href="{{ "/en/comunitate" | relative_url }}" class="btn-primary">Support ShiTeiDoKo</a>
     </div>
   </div>
 </div>
