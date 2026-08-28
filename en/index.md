@@ -8,7 +8,7 @@ lang: en
 
 <!-- SECTION 1: HERO -->
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
+  <div class="hero-image" style="background-image: url('/assets/images/hero_club1.jpg');"></div>
   <div class="hero-content">
     <h1 style="font-size: 2rem;">ShiTeiDoKo Sports Club</h1>
     <p>Training Brazilian Ju-Jitsu and Ju-Jitsu Traditional for children and adults. Build discipline, confidence and technique in an environment dedicated to performance.</p>

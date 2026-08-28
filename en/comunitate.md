@@ -6,7 +6,7 @@ lang: en
 ---
 
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('assets/images/hero_copii.jpg');"></div>
+  <div class="hero-image" style="background-image: url('/assets/images/hero_copii.jpg');"></div>
   <div class="hero-content">
     <h3 style="font-size: 1.6rem;">Support your children in practicing Ju-Jitsu!</h3>
     <p>Redirect 3.5% of your income tax to ShiTeiDoKo Sports Club at no extra cost to you.</p>

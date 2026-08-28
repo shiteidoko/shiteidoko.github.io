@@ -6,7 +6,7 @@ lang: en
 ---
 
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
+  <div class="hero-image" style="background-image: url('/assets/images/hero_club1.jpg');"></div>
   <div class="hero-content">
   <h1 style="font-size: 2rem;">About Ju-Jitsu and Its History</h1>
   <p>
