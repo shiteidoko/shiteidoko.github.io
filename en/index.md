@@ -21,7 +21,7 @@ lang: en
 
 <!-- SECTION 2: WHY US -->
 <div class="hero-card reverse">
-  <div class="hero-image" style="background-image: url('assets/images/hero_club2.jpg');"></div>
+  <div class="hero-image" style="background-image: url('/assets/images/hero_club2.jpg');"></div>
   <div class="hero-content">
     <h3 style="font-size: 1.6rem;">Why ShiTeiDoKo?</h3>
     <p>✓ <strong>No previous experience:</strong> We train beginners from scratch.</p>
@@ -36,7 +36,7 @@ lang: en
 
 <!-- SECTION 3: COMMUNITY / TAX SUPPORT -->
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('assets/images/hero_copii.jpg');"></div>
+  <div class="hero-image" style="background-image: url('/assets/images/hero_copii.jpg');"></div>
   <div class="hero-content">
     <h3 style="font-size: 1.6rem;">Support your kids to practice Ju-Jitsu!</h3>
     <p>Redirect 3.5% of the tax to ShiTeiDoKo Sports Club at no extra cost to you.</p>
