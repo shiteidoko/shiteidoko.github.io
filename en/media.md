@@ -22,7 +22,7 @@ lang: en
 We invite you to follow our activities, photos, and video clips from the gym:
 
 * 📘 **[Facebook ShiTeiDoKo](https://facebook.com/shiteidoko)** – Training photos, announcements, and news from our community.
-* 📸 **[Instagram ShiTeiDoKo](https://instagram.com/shiteidoko)** – Daily stories, behind-the-scenes moments, and competition highlights.
+* 📸 **[Instagram ShiTeiDoKo](https://instagram.com/shiteidoko_constanta)** – Daily stories, behind-the-scenes moments, and competition highlights.
 * 🎬 **[YouTube ShiTeiDoKo](https://youtube.com/shiteidoko)** – Technique demonstrations, class videos, and competitions.
 * 🐦 **[X (Twitter) ShiTeiDoKo](https://x.com/shiteidoko)** – Quick updates and news about club activities.
 

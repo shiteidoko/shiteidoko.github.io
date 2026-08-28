@@ -22,7 +22,7 @@ lang: ro
 Te invităm să ne urmărești activitatea, fotografiile și clipurile video de la sală:
 
 * 📘 **[Facebook ShiTeiDoKo](https://facebook.com/shiteidoko)** – Imagini de la antrenamente, anunțuri și noutăți din comunitate.
-* 📸 **[Instagram ShiTeiDoKo](https://instagram.com/shiteidoko)** – Story-uri zilnice, momente din culise și imagini de la competiții.
+* 📸 **[Instagram ShiTeiDoKo](https://instagram.com/shiteidoko_constanta)** – Story-uri zilnice, momente din culise și imagini de la competiții.
 * 🎬 **[YouTube ShiTeiDoKo](https://youtube.com/shiteidoko)** – Demonstratii de tehnică, videoclipuri de la clase și competiții.
 * 🐦 **[X (Twitter) ShiTeiDoKo](https://x.com/shiteidoko)** – Actualizări rapide și știri despre activitatea clubului.
 
