@@ -27,6 +27,17 @@
           {%- for link in site.navigation[current_lang] -%}
             <a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
           {%- endfor -%}
+
+          <!-- Language Switcher -->
+          <span class="lang-switcher" style="margin-left: 10px; font-weight: bold;">
+            {%- if current_lang == "ro" -%}
+              {%- assign target_url = page.url | prepend: "/en" -%}
+              <span class="active-lang">RO</span> | <a class="page-link" style="display: inline; padding: 0;" href="{{ target_url | relative_url }}">EN</a>
+            {%- else -%}
+              {%- assign target_url = page.url | replace: "/en/", "/" -%}
+              <a class="page-link" style="display: inline; padding: 0;" href="{{ target_url | relative_url }}">RO</a> | <span class="active-lang">EN</span>
+            {%- endif -%}
+          </span>
         </div>
       </nav>
     {%- endif -%}

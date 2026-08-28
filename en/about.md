@@ -6,7 +6,7 @@ lang: en
 ---
 
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
+  <div class="hero-image" style="background-image: url('/assets/images/hero_club1.jpg');"></div>
   <div class="hero-content">
   <h1 style="font-size: 2rem;">Welcome to ShiTeiDoKo Sports Club Constanța!</h1>
   <p>
