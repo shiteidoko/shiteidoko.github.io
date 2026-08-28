@@ -20,7 +20,7 @@ lang: ro
 ### Clubul Sportiv ShiTeiDoKo
 
 * 📍 **Adresă:** str. Griviței, nr. 32A, Constanța, România
-* 📞 **Telefoane:** [0721 704 551](tel:+40721704551) [0750455318](tel:+40750455318)
+* 📞 **Telefon:** [0721 704 551](tel:+40721704551)
 * ✉️ **Email:** contact@shiteidoko.ro
 * 📘 **Facebook:** [ShiTeiDoKo](https://facebook.com/shiteidoko)
 
