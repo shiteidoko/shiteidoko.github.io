@@ -11,7 +11,7 @@ lang: en
   <div class="hero-image" style="background-image: url('{{ "/assets/images/hero_club1.jpg" | relative_url }}');"></div>
   <div class="hero-content">
     <h1 style="font-size: 2rem;">ShiTeiDoKo Sports Club</h1>
-    <p>Training Brazilian Ju-Jitsu and Ju-Jitsu Traditional for children and adults. Build discipline, confidence and technique in an environment dedicated to performance.</p>
+    <p>Training Brazilian Jiu-Jitsu and Ju-Jitsu Traditional for children and adults. Build discipline, confidence and technique in an environment dedicated to performance.</p>
     <div class="btn-container">
       <a href="{{ "/en/contact" | relative_url }}" class="btn-primary">Schedule a free session</a>
       <a href="{{ "/en/program" | relative_url }}" class="btn-secondary">See The Program</a>

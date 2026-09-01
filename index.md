@@ -11,7 +11,7 @@ lang: ro
   <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
   <div class="hero-content">
     <h1 style="font-size: 2rem;">Clubul Sportiv ShiTeiDoKo</h1>
-    <p>Antrenamente de Brazilian Ju-Jitsu și Ju-Jitsu Tradițional pentru copii și adulți. Construiește disciplină, încredere și tehnică într-un mediu dedicat performanței.</p>
+    <p>Antrenamente de Brazilian Jiu-Jitsu și Ju-Jitsu Tradițional pentru copii și adulți. Construiește disciplină, încredere și tehnică într-un mediu dedicat performanței.</p>
     <div class="btn-container">
       <a href="{{ "/contact" | relative_url }}" class="btn-primary">Programează o ședință gratuită</a>
       <a href="{{ "/program" | relative_url }}" class="btn-secondary">Vezi Programul</a>

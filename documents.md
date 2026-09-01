@@ -21,8 +21,15 @@ lang: ro
 
 Pentru a te înscrie la antrenamente sau pentru a înscrie un minor, te rugăm să consulți cerințele și documentele necesare:
 
-* 📋 **Formular de Înscriere** *(Disponibil la sală sau la cerere)*
-* 📝 **Acte necesare:** Adeverință medicală de la medicul de familie (apt pentru efort fizic / arte marțiale), acordul părintelui (pentru minori) și copie după actul de identitate.
+* 📋 **Formular de Înscriere** *(Disponibil pe site sau la sală)*
+
+    * 📥 **[Cerere inscriere Shi Tei DoKo (.docx)](https://shiteidoko.github.io/assets/Cerere inscriere SHI TEI DOKO.docx**
+
+    * 📥 **[Cerere inscriere Shi Tei DoKo (.pdf)](https://shiteidoko.github.io/assets/Cerere inscriere SHI TEI DOKO.pdf**
+
+* 📝 **Acte necesare:** Adeverință medicală de la medicul de familie (apt pentru efort fizic / arte marțiale), acordul părintelui (pentru minori).
+
+
 
 <br>
 
