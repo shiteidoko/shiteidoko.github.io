@@ -23,9 +23,8 @@ Pentru a te înscrie la antrenamente sau pentru a înscrie un minor, te rugăm s
 
 * 📋 **Formular de Înscriere** *(Disponibil pe site sau la sală)*
 
-    * 📥 **[Cerere inscriere Shi Tei DoKo (.docx)](https://shiteidoko.github.io/assets/Cerere inscriere SHI TEI DOKO.docx**
-
-    * 📥 **[Cerere inscriere Shi Tei DoKo (.pdf)](https://shiteidoko.github.io/assets/Cerere inscriere SHI TEI DOKO.pdf**
+    * 📥 **[Cerere inscriere Shi Tei DoKo (.docx)](https://shiteidoko.github.io/assets/Cerere_inscriere_SHITEIDOKO.docx)**
+    * 📥 **[Cerere inscriere Shi Tei DoKo (.pdf)](https://shiteidoko.github.io/assets/Cerere_inscriere_SHITEIDOKO.pdf)**
 
 * 📝 **Acte necesare:** Adeverință medicală de la medicul de familie (apt pentru efort fizic / arte marțiale), acordul părintelui (pentru minori).
 
