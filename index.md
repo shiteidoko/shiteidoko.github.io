@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Acasa
+title: Acasă
 permalink: /
 description: ""
 lang: ro
