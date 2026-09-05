@@ -15,6 +15,8 @@ lang: en
 </div>
 </div>
 
+In direct translation from Japanese, Ju-Jitsu means "the gentle art" and is based on the principle of not opposing direct force, but yielding to overcome. It is a complex and ancient Japanese martial art focused on self-defense, utilizing throwing techniques, striking, joint locks, chokes, and immobilizations to neutralize an aggressor, often using their own force against them. Considered the foundation of many modern martial arts, it promotes discipline and respect.
+
 <br>
 
 ### 📜 History and Origins

@@ -15,6 +15,8 @@ lang: ro
 </div>
 </div>
 
+În traducere directă din limba japoneză, Ju–Jitsu înseamnă „arta supleței” și are la bază principiul de a nu opune forță directă, ci de a ceda pentru a câștiga. Este o artă marțială japoneză complexă și străveche, axată pe autoapărare, care utilizează tehnici de proiectare, tehnici de lovire, fixare, strangulare și imobilizare pentru a neutraliza un agresor, deseori folosind forța acestuia împotriva lui. Considerată baza multor arte marțiale moderne, aceasta promovează disciplina și respectul.
+
 <br>
 
 ### 📜 Istorie și Origini

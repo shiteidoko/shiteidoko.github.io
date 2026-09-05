@@ -6,7 +6,7 @@ lang: ro
 ---
 
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
+  <div class="hero-image" style="background-image: url('assets/images/hero_club3.jpg');"></div>
   <div class="hero-content">
   <h1 style="font-size: 2rem;">Galerie Foto & Video</h1>
   <p>
@@ -22,6 +22,6 @@ lang: ro
 Te invităm să ne urmărești activitatea, fotografiile și clipurile video de la sală:
 
 * 📘 **[Facebook ShiTeiDoKo](https://facebook.com/shiteidoko)** – Imagini de la antrenamente, anunțuri și noutăți din comunitate.
-* 📸 **[Instagram ShiTeiDoKo](https://instagram.com/shiteidoko_constanta)** – Story-uri zilnice, momente din culise și imagini de la competiții.
+* 📸 **[Instagram ShiTeiDoKo](https://instagram.com/shiteidoko_constanta)** – Story-uri, momente din culise și imagini de la competiții.
 
 <br>
