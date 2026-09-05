@@ -35,9 +35,9 @@ lang: ro
 
 | Ziua | Interval Orar |
 | :--- | :--- |
-| **Luni** | 19:00 - 21:00 |
-| **Miercuri** | 19:00 - 21:00 |
-| **Vineri** | 19:00 - 21:00 |
+| **Luni** | 19:00 - 20:30 |
+| **Miercuri** | 19:00 - 20:30 |
+| **Vineri** | 19:00 - 20:30 |
 | **Sambata** | dupa ora 11:00 |
 
 <br>

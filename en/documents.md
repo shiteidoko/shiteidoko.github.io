@@ -22,6 +22,8 @@ lang: en
 To sign up for classes or register a minor, please review the required documents and criteria:
 
 * 📋 **Registration Form** *(Available at the gym or upon request)*
+    * **[Cerere inscriere Shi Tei DoKo (.docx)](https://shiteidoko.github.io/assets/Cerere_inscriere_SHITEIDOKO.docx)**
+    * **[Cerere inscriere Shi Tei DoKo (.pdf)](https://shiteidoko.github.io/assets/Cerere_inscriere_SHITEIDOKO.pdf)**
 * 📝 **Required documents:** Medical certificate from your primary care physician (fit for physical exertion / martial arts), parental consent form (for minors), and a copy of your ID.
 
 <br>

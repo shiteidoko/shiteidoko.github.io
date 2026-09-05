@@ -35,10 +35,10 @@ Adults:
 
 | Day | Time Interval |
 | :--- | :--- |
-| **Monday** | 19:00 - 21:00 |
-| **Wednesday** | 19:00 - 21:00 |
-| **Friday** | 19:00 - 21:00 |
-| **Saturday** | dupa ora 11:00 |
+| **Monday** | 19:00 - 20:30 |
+| **Wednesday** | 19:00 - 20:30 |
+| **Friday** | 19:00 - 20:30 |
+| **Saturday** | after 11:00 |
 
 <br>
 
