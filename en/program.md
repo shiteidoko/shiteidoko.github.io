@@ -25,9 +25,9 @@ Children:
 
 | Day | Time Interval |
 | :--- | :--- |
-| **Tuesday** | 19:00 - 20:00 |
-| **Thursday** | 19:00 - 20:00 |
-| **Saturday** | 9:30 - 10:30 |
+| **Monday** | 18:00 - 19:00 |
+| **Wednesday** | 18:00 - 19:00 |
+| **Friday** | 18:00 - 19:00 |
 
 <br>
 
@@ -35,9 +35,9 @@ Adults:
 
 | Day | Time Interval |
 | :--- | :--- |
-| **Monday** | 19:00 - 20:30 |
-| **Wednesday** | 19:00 - 20:30 |
-| **Friday** | 19:00 - 20:30 |
+| **Monday** | 19:30 - 21:00 |
+| **Wednesday** | 19:30 - 21:00 |
+| **Friday** | 19:30 - 21:00 |
 | **Saturday** | after 11:00 |
 
 <br>
