@@ -33,8 +33,6 @@ To sign up for classes or register a minor, please review the required documents
 Official rules and documentation issued by the JJIF for Ne-Waza and Fighting disciplines:
 
 * 🌐 **[JJIF Official Documents Portal](https://www.ju-jitsu.sport/organization/about-us/downloads)**
-* 📖 **[JJIF Official Rulebook - Ne-Waza (PDF)](https://www.ju-jitsu.sport/fileadmin/jjif/media/downloads/Rules/JiuJitsu/JJIF-Jiu-Jitsu-Rules-v2.8-English.pdf)**
-* ⚔️ **[JJIF Official Rulebook - Fighting (PDF)](https://www.ju-jitsu.sport/fileadmin/jjif/media/downloads/Rules/Fighting/Fighting_Rules_2026_-_V5.1.pdf)**
 
 <br>
 

@@ -35,8 +35,6 @@ Pentru a te înscrie la antrenamente sau pentru a înscrie un minor, te rugăm s
 Regulamentele oficiale și documentația emise de JJIF pentru probele de Ne-Waza și Fighting:
 
 * 🌐 **[Portal Documente Oficiale JJIF](https://www.ju-jitsu.sport/organization/about-us/downloads)**
-* 📖 **[Regulament Oficial JJIF - Ne-Waza (PDF)](https://www.ju-jitsu.sport/fileadmin/jjif/media/downloads/Rules/JiuJitsu/JJIF-Jiu-Jitsu-Rules-v2.8-English.pdf)**
-* ⚔️ **[Regulament Oficial JJIF - Fighting (PDF)](https://www.ju-jitsu.sport/fileadmin/jjif/media/downloads/Rules/Fighting/Fighting_Rules_2026_-_V5.1.pdf)**
 
 <br>
 

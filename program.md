@@ -6,7 +6,7 @@ lang: ro
 ---
 
 <div class="hero-card">
-  <div class="hero-image" style="background-image: url('assets/images/hero_club1.jpg');"></div>
+  <div class="hero-image" style="background-image: url('assets/images/hero_club4.jpg');"></div>
   <div class="hero-content">
   <h1 style="font-size: 2rem;">Program antrenamente</h1>
   <p>
