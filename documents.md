@@ -34,12 +34,20 @@ Pentru a te înscrie la antrenamente sau pentru a înscrie un minor, te rugăm s
 
 Regulamentele oficiale și documentația emise de JJIF pentru probele de Ne-Waza și Fighting:
 
-* 🌐 **[Portal Documente Oficiale JJIF](https://www.ju-jitsu.sport/organization/about-us/downloads)**
+* 📚 **[Portal Documente Oficiale JJIF](https://www.ju-jitsu.sport/organization/about-us/downloads)**
 
 <br>
 
 ### 🇧🇷 International Brazilian Jiu-Jitsu Federation (IBJJF)
 
-Pentru practicanții de BJJ care doresc să aprofundeze regulamentul competițional internațional:
+Pentru practicanții de BJJ care doresc să aprofundeze regulamentul competițional IBJJF:
 
 * 📚 **[Cartea de Reguli IBJJF (Rule Book)](https://ibjjf.com/books-videos)**
+
+<br>
+
+### 🥋 Abu Dhabi Jiu Jitsu Pro (AJP)
+
+Pentru practicanții de BJJ care doresc să aprofundeze regulamentul competițional AJP:
+
+* 📚 **[Cartea de Reguli AJP (Rule Book)](https://ajptour.com/en/regulations/competition-rules/ajp-jiu-jitsu-rules)**

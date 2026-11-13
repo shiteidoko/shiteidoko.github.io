@@ -38,8 +38,14 @@ Official rules and documentation issued by the JJIF for Ne-Waza and Fighting dis
 
 ### 🇧🇷 International Brazilian Jiu-Jitsu Federation (IBJJF)
 
-For BJJ practitioners who want to study the international competition rulebook:
+For BJJ practitioners who want to study the IBJJF competition rulebook:
 
 * 📚 **[IBJJF Rulebook](https://ibjjf.com/books-videos)**
 
 <br>
+
+### 🥋 Abu Dhabi Jiu Jitsu Pro (AJP)
+
+For BJJ practitioners who want to study the AJP competition rulebook:
+
+* 📚 **[AJP Rulebook)](https://ajptour.com/en/regulations/competition-rules/ajp-jiu-jitsu-rules)**
